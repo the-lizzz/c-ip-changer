@@ -15,13 +15,13 @@ int main()
     int fd;
     struct ifreq ifr;
     struct sockaddr_in* addr;
-    printf("eternal-red/ip>");
+    printf("cic/ip>");
     scanf("%s", ip_address);
     FILE *fptr;
     fptr = fopen("var.h", "w");
     fprintf(fptr, "%s",ip_address);
     fclose(fptr);
-    printf("eternal-red/interface>");
+    printf("cic/interface>");
     scanf("%s",interface);
     fd = socket(AF_INET, SOCK_DGRAM, 0);
     ifr.ifr_addr.sa_family = AF_INET;
