@@ -1,7 +1,7 @@
 # c-ip-changer
 a c script that will change your ip
 -------
-How to run it?
+How to run the program?
 ```
 make ip-changer
 ./ip-changer
