@@ -4,6 +4,5 @@ a c script that will change your ip
 How to run the program?
 ```
 make ip-changer
-./ip-changer
+sudo ./ip-changer
 ```
-var.h is not a real c header file! inside the var.h file should be the ip address you want to change your system ip to
